@@ -27,6 +27,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnDot:" destination="BYZ-38-t0r" eventType="touchDown" id="eOj-AJ-K1m"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZiR-9R-vCg" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="112" y="742" width="92" height="92"/>
@@ -40,6 +43,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnZero:" destination="BYZ-38-t0r" eventType="touchDown" id="Iwv-ba-qPo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NZ9-Ia-9vn" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="212" y="742" width="92" height="92"/>
@@ -53,6 +59,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnBack:" destination="BYZ-38-t0r" eventType="touchDown" id="VNl-RA-zQH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LWe-Fu-ymT" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="312" y="742" width="92" height="92"/>
@@ -79,6 +88,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnOne:" destination="BYZ-38-t0r" eventType="touchDown" id="lCo-D9-syk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qsq-RQ-PNV" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="112" y="642" width="92" height="92"/>
@@ -92,6 +104,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnTwo:" destination="BYZ-38-t0r" eventType="touchDown" id="IQr-8Z-2zp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bO9-E0-IXM" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="212" y="642" width="92" height="92"/>
@@ -105,6 +120,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnThree:" destination="BYZ-38-t0r" eventType="touchDown" id="bEZ-yw-OYC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PBm-Ej-7r4" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="312" y="642" width="92" height="92"/>
@@ -118,6 +136,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnMinus:" destination="BYZ-38-t0r" eventType="touchDown" id="tQY-db-pJg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cP4-lI-9af" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="12" y="542" width="92" height="92"/>
@@ -131,6 +152,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnFour:" destination="BYZ-38-t0r" eventType="touchDown" id="gaC-bf-B1g"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dYd-28-s8a" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="112" y="542" width="92" height="92"/>
@@ -144,6 +168,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnFive:" destination="BYZ-38-t0r" eventType="touchDown" id="yw8-DC-Kfm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1Fw-4f-Rc3" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="212" y="542" width="92" height="92"/>
@@ -157,6 +184,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnSix:" destination="BYZ-38-t0r" eventType="touchDown" id="mRp-Bd-Z85"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fxo-2S-qGs" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="312" y="542" width="92" height="92"/>
@@ -170,6 +200,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnPlus:" destination="BYZ-38-t0r" eventType="touchDown" id="Q1t-qs-UMt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rj4-ub-57s" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="12" y="442" width="92" height="92"/>
@@ -183,6 +216,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnSeven:" destination="BYZ-38-t0r" eventType="touchDown" id="5Ou-KS-pd5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VvZ-ZF-goe" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="112" y="442" width="92" height="92"/>
@@ -196,6 +232,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnEight:" destination="BYZ-38-t0r" eventType="touchDown" id="mI8-tq-gYH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xoe-ed-zau" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="212" y="442" width="92" height="92"/>
@@ -209,6 +248,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnNine:" destination="BYZ-38-t0r" eventType="touchDown" id="tZ0-6R-0lh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7CY-dd-621" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="312" y="442" width="92" height="92"/>
@@ -222,6 +264,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnMutiply:" destination="BYZ-38-t0r" eventType="touchDown" id="0Eb-o9-GAm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cdh-AX-bIg" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="12" y="342" width="92" height="92"/>
@@ -235,6 +280,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnAC:" destination="BYZ-38-t0r" eventType="touchDown" id="JUa-Ql-cgZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7hy-a2-dYz" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="112" y="342" width="92" height="92"/>
@@ -274,11 +322,14 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnDivide:" destination="BYZ-38-t0r" eventType="touchDown" id="Adv-vS-va5"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqe-Zr-69o">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="Result" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqe-Zr-69o">
                                 <rect key="frame" x="12" y="212" width="382" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -286,6 +337,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="EBe-LY-wxl"/>
                     </view>
+                    <connections>
+                        <outlet property="Result" destination="jqe-Zr-69o" id="tjO-aJ-6Nj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

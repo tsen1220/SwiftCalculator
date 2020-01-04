@@ -2,8 +2,8 @@
 //  RoundButton.swift
 //  Calculator
 //
-//  Created by 曾子恩 on 2019/12/24.
-//  Copyright © 2019 曾子恩. All rights reserved.
+//  Created by Tsen on 2019/12/24.
+//  Copyright © 2019 Tsen. All rights reserved.
 //
 
 import UIKit
