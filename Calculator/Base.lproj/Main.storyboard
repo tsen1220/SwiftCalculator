@@ -75,6 +75,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnCalculate:" destination="BYZ-38-t0r" eventType="touchDown" id="ZAS-25-XJc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qhO-3g-ebw" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="12" y="642" width="92" height="92"/>

@@ -78,15 +78,19 @@ class ViewController: UIViewController {
     @IBAction func activateBtnAC(_ sender:UIButton){
         Result.text = ""
     }
-//    @IBAction func activateBtnSeven(_ sender:UIButton){
-//        Result.text?.append("7")
-//    }
-//    @IBAction func activateBtnEight(_ sender:UIButton){
-//        Result.text?.append("8")
-//    }
-//    @IBAction func activateBtnNine(_ sender:UIButton){
-//        Result.text?.append("9")
-//    }
     
+    @IBAction func activateBtnCalculate(_ sender:UIButton){
+        let str:String? = Result.text
+        let answer:Double = calculate(s: str!)
+        Result.text = "\(String(answer))"
+    }
+    
+    func calculate(s:String) -> Double {
+        let exp:NSExpression = NSExpression(format:s)
+        let answer:Double = exp.expressionValue(with: nil,context:nil) as? Double ?? 0
+
+        
+        return answer
+    }
 }
 
