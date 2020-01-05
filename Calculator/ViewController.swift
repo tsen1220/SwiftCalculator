@@ -88,8 +88,37 @@ class ViewController: UIViewController {
                 self.Result.text = "\(String(answer))"
             }
         }catch{
-            let  answer = 0
-            self.Result.text = "\(String(answer))"
+            self.Result.text = ""
+        }
+    }
+    
+    @IBAction func activateBtnSqrt(_ sender:UIButton){
+        let str:String? = Result.text
+        
+        do{
+            try CatchException.catchException {
+                let answer:Double = self.calculate(s: str!)
+                let sqrtRoot = answer.squareRoot()
+                
+                self.Result.text = "\(sqrtRoot)"
+            }
+        }catch{
+            self.Result.text = ""
+        }
+    }
+    
+    @IBAction func activateBtnPercent(_ sender:UIButton){
+        let str:String? = Result.text
+        
+        do{
+            try CatchException.catchException {
+                let answer:Double = self.calculate(s: str!)
+                let percent = answer / 100
+                
+                self.Result.text = "\(percent)"
+            }
+        }catch{
+            self.Result.text = ""
         }
     }
     

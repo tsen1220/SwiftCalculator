@@ -299,6 +299,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnPercent:" destination="BYZ-38-t0r" eventType="touchDown" id="R1I-zd-qH0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mwm-z3-PlC" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="212" y="342" width="92" height="92"/>
@@ -312,6 +315,9 @@
                                         <real key="value" value="50"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="activateBtnSqrt:" destination="BYZ-38-t0r" eventType="touchDown" id="lAS-2V-Din"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="57O-Nu-0OZ" customClass="RoundButton" customModule="Calculator">
                                 <rect key="frame" x="312" y="342" width="92" height="92"/>
