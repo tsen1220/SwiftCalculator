@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7AE60A623C1A42C00F9B679 /* CatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE60A523C1A42C00F9B679 /* CatchException.m */; };
 		C7F506BA23B23EE400D4B0AB /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F506B923B23EE400D4B0AB /* RoundButton.swift */; };
 		C7F8CE3723B23DB400DB4019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8CE3623B23DB400DB4019 /* AppDelegate.swift */; };
 		C7F8CE3923B23DB400DB4019 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8CE3823B23DB400DB4019 /* SceneDelegate.swift */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7AE60A023C1A3B200F9B679 /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		C7AE60A423C1A42C00F9B679 /* CatchException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatchException.h; sourceTree = "<group>"; };
+		C7AE60A523C1A42C00F9B679 /* CatchException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatchException.m; sourceTree = "<group>"; };
 		C7F506B923B23EE400D4B0AB /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		C7F8CE3323B23DB400DB4019 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F8CE3623B23DB400DB4019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,11 +100,14 @@
 				C7F8CE3623B23DB400DB4019 /* AppDelegate.swift */,
 				C7F8CE3823B23DB400DB4019 /* SceneDelegate.swift */,
 				C7F8CE3A23B23DB400DB4019 /* ViewController.swift */,
+				C7AE60A423C1A42C00F9B679 /* CatchException.h */,
+				C7AE60A523C1A42C00F9B679 /* CatchException.m */,
 				C7F506B923B23EE400D4B0AB /* RoundButton.swift */,
 				C7F8CE3C23B23DB400DB4019 /* Main.storyboard */,
 				C7F8CE3F23B23DB500DB4019 /* Assets.xcassets */,
 				C7F8CE4123B23DB500DB4019 /* LaunchScreen.storyboard */,
 				C7F8CE4423B23DB500DB4019 /* Info.plist */,
+				C7AE60A023C1A3B200F9B679 /* Calculator-Bridging-Header.h */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -173,6 +180,7 @@
 				TargetAttributes = {
 					C7F8CE3223B23DB400DB4019 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					C7F8CE4823B23DB500DB4019 = {
 						CreatedOnToolsVersion = 11.3;
@@ -240,6 +248,7 @@
 				C7F8CE3B23B23DB400DB4019 /* ViewController.swift in Sources */,
 				C7F8CE3723B23DB400DB4019 /* AppDelegate.swift in Sources */,
 				C7F8CE3923B23DB400DB4019 /* SceneDelegate.swift in Sources */,
+				C7AE60A623C1A42C00F9B679 /* CatchException.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6W5N5VTBU;
 				INFOPLIST_FILE = Calculator/Info.plist;
@@ -419,6 +429,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Calculator.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Calculator/Calculator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -428,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6W5N5VTBU;
 				INFOPLIST_FILE = Calculator/Info.plist;
@@ -437,6 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Calculator.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Calculator/Calculator-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

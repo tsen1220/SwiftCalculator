@@ -81,15 +81,22 @@ class ViewController: UIViewController {
     
     @IBAction func activateBtnCalculate(_ sender:UIButton){
         let str:String? = Result.text
-        let answer:Double = calculate(s: str!)
-        Result.text = "\(String(answer))"
+        
+        do{
+            try CatchException.catchException {
+                let answer:Double = self.calculate(s: str!)
+                self.Result.text = "\(String(answer))"
+            }
+        }catch{
+            let  answer = 0
+            self.Result.text = "\(String(answer))"
+        }
     }
     
     func calculate(s:String) -> Double {
         let exp:NSExpression = NSExpression(format:s)
         let answer:Double = exp.expressionValue(with: nil,context:nil) as? Double ?? 0
 
-        
         return answer
     }
 }
