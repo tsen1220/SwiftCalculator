@@ -68,10 +68,13 @@ class ViewController: UIViewController {
         Result.text?.append(".")
     }
     @IBAction func activateBtnBack(_ sender:UIButton){
-        if Result.text!.count > 0 {
+        if Result.text!.count > 0
+        {
             let resultStrDelete = Result.text?.prefix(Result.text!.count - 1)
             Result.text = String(resultStrDelete ?? "Error")
-        }else{
+        }
+        else
+        {
             return
         }
     }
@@ -82,12 +85,16 @@ class ViewController: UIViewController {
     @IBAction func activateBtnCalculate(_ sender:UIButton){
         let str:String? = Result.text
         
-        do{
-            try CatchException.catchException {
+        do
+        {
+            try CatchException.catchException 
+            {
                 let answer:Double = self.calculate(s: str!)
                 self.Result.text = "\(String(answer))"
             }
-        }catch{
+        }
+        catch
+        {
             self.Result.text = ""
         }
     }
@@ -95,14 +102,18 @@ class ViewController: UIViewController {
     @IBAction func activateBtnSqrt(_ sender:UIButton){
         let str:String? = Result.text
         
-        do{
-            try CatchException.catchException {
+        do
+        {
+            try CatchException.catchException 
+            {
                 let answer:Double = self.calculate(s: str!)
                 let sqrtRoot = answer.squareRoot()
                 
                 self.Result.text = "\(sqrtRoot)"
             }
-        }catch{
+        }
+        catch
+        {
             self.Result.text = ""
         }
     }
@@ -110,14 +121,18 @@ class ViewController: UIViewController {
     @IBAction func activateBtnPercent(_ sender:UIButton){
         let str:String? = Result.text
         
-        do{
-            try CatchException.catchException {
+        do
+        {
+            try CatchException.catchException 
+            {
                 let answer:Double = self.calculate(s: str!)
                 let percent = answer / 100
                 
                 self.Result.text = "\(percent)"
             }
-        }catch{
+        }
+        catch
+        {
             self.Result.text = ""
         }
     }
